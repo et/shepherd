@@ -42,6 +42,7 @@ Linters come in a variety of flavors, but they all end up with the same result: 
 While zero violations is ideal, sometimes is not always possible. One doesn't want to change code that doesn't affect their commit else they may be `git blame`d in the future. Therefore, all linters have a configurable `adjustment` option which can be `simple` or `aggressive`.
 
 | Value      | Description                                                         |
+| ---------- | ------------------------------------------------------------------- |
 | simple     | The code change must decrease the violations or keep it the same.   |
 | aggressive | The code change must ensure the violations goes to or stays at zero |
 
